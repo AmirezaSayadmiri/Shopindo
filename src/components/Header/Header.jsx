@@ -34,10 +34,10 @@ const Header = () => {
                 <Button variant="contained" color="primary" href="/login">
                     Login | Register
                 </Button>
-                <Button variant="contained" color="primary">
+                <Button href="/cart" variant="contained" color="primary">
                     <ShoppingCart />
                 </Button>
-                <Button variant="contained" color="primary">
+                <Button href="/account/profile" variant="contained" color="primary">
                     <Person />
                 </Button>
                 <Button variant="contained" color="error">
